@@ -45,5 +45,24 @@ get_header(); ?>
         </main><!-- #main -->
     </div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+<section>
+    <div class= svg_loader>
+    <?php $terms = get_terms('product_types'): setup_postdata ($term) ?>
+    <?php foreach($terms as $term)?>
+    <?php echo 'p' ?>
+<?php endforeach; wp_reset ?> 
+
+
+<section>
+           <?php $product_types=get_terms('product_type');?>
+           <?php foreach ( $product_types as $term ) : setup_postdata( $term ); ?>
+              <div>
+                 <img src=<?php echo get_template_directory_uri().'/assets/images/product-type-icons/' . $term->slug . '.svg'?>>
+                 <p><?php echo $term->description ?></p>
+                 <a href=<?php echo get_term_link($term)?>> <?php echo $term->name?> stuff</a>
+              </div>
+           <?php endforeach; wp_reset_postdata(); ?>
+        </section>
+
+        
 <?php get_footer(); ?>
