@@ -46,3 +46,21 @@ function inhabitent_login_url() {
 }
 
 add_filter('login_headerurl', 'inhabitent_login_url');
+
+
+function inhabitent_products($query)
+{
+    if (is_admin() || !$query->is_main_query())
+        return;
+
+
+    if (is_post_type_archive('product') || is_tax("product_type")) {
+        // Display only 1 post for the original blog archive
+        $query->set('orderby', 'title');
+        $query->set('order', 'ASC');
+        $query->set('posts_per_page', 16);
+        return;
+    }
+
+}
+add_action('pre_get_posts', 'inhabitent_products', 1);

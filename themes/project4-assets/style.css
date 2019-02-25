@@ -222,6 +222,20 @@ td,
 th {
   padding: 0; }
 
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../../fonts/Merriweather/Merriweather-Light.eot");
+  src: url("../../fonts/Merriweather/Merriweather-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather/Merriweather-Light.woff2") format("woff2"), url("../../fonts/Merriweather/Merriweather-Light.woff") format("woff"), url("../../fonts/Merriweather/Merriweather-Light.ttf") format("truetype"), url("../../fonts/Merriweather/Merriweather-Light.svg#Merriweather-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Nove';
+  src: url("../../fonts/Novecento/945ef6433fcc8467ec370c10c957e886.eot");
+  src: url("../../fonts/Novecento/945ef6433fcc8467ec370c10c957e886.eot?#iefix") format("embedded-opentype"), url("../../fonts/Novecento/945ef6433fcc8467ec370c10c957e886.woff2") format("woff2"), url("../../fonts/Novecento/945ef6433fcc8467ec370c10c957e886.woff") format("woff"), url("../../fonts/Novecento/945ef6433fcc8467ec370c10c957e886.ttf") format("truetype"), url("../../fonts/Novecento/945ef6433fcc8467ec370c10c957e886.svg#.") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
@@ -670,3 +684,72 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.home .banner img {
+  position: relative;
+  top: 31%;
+  left: 41%; }
+
+.home .banner {
+  background: url(../../images/home-hero.jpg) no-repeat;
+  width: 100%;
+  height: 850px;
+  background-size: cover; }
+
+.front-page-journal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5%; }
+  .front-page-journal img {
+    height: 250px;
+    width: 400px; }
+
+.shop-term {
+  border: 1px solid gray;
+  text-align: center; }
+  .shop-term img {
+    width: 31%; }
+
+.home .shop-terms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.site-footer {
+  background: url("../../images/dark-wood.png") repeat;
+  padding: 2%;
+  font-family: "Nove"; }
+
+.site-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2em;
+  color: white; }
+
+.inhabitent-logo {
+  padding-left: 20em; }
+
+.upper-case {
+  text-transform: uppercase; }
+
+.copyright {
+  text-align: center;
+  margin-left: 5%; }
+
+.orange-title {
+  color: #d99054;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem; }
+
+.main-navagation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.journal-title {
+  text-align: center; }

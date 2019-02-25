@@ -24,15 +24,36 @@
 			<i class="fas fa-tree"></i> <!-- CHNAGES HERE -->
 				<div class="site-branding">
 					<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+					
 				</div><!-- .site-branding -->
 
-				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php echo esc_html( 'Primary Menu' ); ?></button>
-					
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-				</nav><!-- #site-navigation -->
+				<div class="header-bar">
+				<div class="logo">
+				<a href="<?php echo get_home_url(); ?>">
+                                <img src="<?php echo get_template_directory_uri();?>/images/inhabitent-logo-tent.svg" alt="inhabitent-logo"/>
+								</a>
+								
+				</div>
+				
+				<div class="navigation">
+                <nav id="site-navigation" class="main-navigation" role="navigation">
+
+
+
+                  
+                    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php echo esc_html( 'Primary Menu' ); ?></button>
+                    <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+                    
+                <?php get_search_form(); ?>
+                    
+                    
+                </nav>
+</div>
+				
+
+				</div>
+
+
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">
-''
