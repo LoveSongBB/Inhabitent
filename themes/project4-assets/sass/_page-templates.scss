@@ -1,0 +1,83 @@
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+
+/* Front page */
+
+.home .banner img {
+    position: relative;
+    top: 31%; //ajegosgboasbgoasbrgoasrgb
+    left: 41%; //aegmsgasognsagnoasogansg
+}
+
+
+.home .banner {
+    background: url(../../images/home-hero.jpg) no-repeat top;
+    height: 100vh;
+    background-size: cover, cover;
+    margin-bottom: 1rem;
+}
+
+
+.front-page-journal {
+    display:flex;
+    margin-left: 5%;
+    img{
+        height: 250px;
+        width: 400px;
+        
+    }
+}
+
+.journal-title {
+    font-size:40px;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 3.75rem;
+}
+
+.shop-term  {
+    border: 0.4px solid #a1a1a1;
+    border-top-width: 5px;
+    max-width: 260px;
+    padding: 1rem;
+    flex: 0 1 25%;
+
+    &.shop-term:hover {
+        border: 1px solid orange;
+        border-top-width: 5px;
+
+    }
+    
+
+   
+    img {
+        width: 30%;
+
+    }
+}
+
+.shop-term a {
+    background:#248a83;
+    border-radius: 0;
+    color: #fff;;
+    padding: .75rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Nove"
+}
+.shop-term  a:hover {
+    background:#19625d; //Took this from website (Ben)
+}
+
+.shop-term p {
+    font-size: 14px;
+    line-height: 1.6rem;
+}
+
+.home .shop-terms {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 220px;
+}

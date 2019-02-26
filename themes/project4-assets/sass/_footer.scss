@@ -1,0 +1,40 @@
+.site-footer {
+    background: url('../../images/dark-wood.png') repeat;
+    padding: 2%;
+    font-family: "Merriweather";
+
+
+
+.site-info {
+    display:flex;
+    justify-content: space-around;
+    padding: 2em;
+    color: white;
+}
+
+
+.inhabitent-logo {
+padding-left: 20em;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+
+.fix {
+    text-decoration: none;
+    color: white;
+}
+
+}
+.orange-title {
+    color:#d99054;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem; 
+}

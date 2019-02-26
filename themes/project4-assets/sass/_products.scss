@@ -1,0 +1,10 @@
+.product .type-product .post-type-archive .post-type-archive-product {
+    display:grid;
+}
+
+.product {
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
