@@ -511,6 +511,25 @@ a {
   text-align: right;
   width: 50%; }
 
+.search-submission {
+  color: #fff;
+  border: none; }
+
+fieldset {
+  border: none; }
+
+input.search-field {
+  display: none;
+  text-transform: uppercase; }
+
+.search-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+label {
+  padding: 2rem; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/

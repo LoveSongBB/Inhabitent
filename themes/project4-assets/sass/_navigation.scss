@@ -130,3 +130,26 @@ a {
 		width: 50%;
 	}
 }
+
+
+.search-submission{
+	color: $color__background-body;
+	border: none;
+}
+
+fieldset{
+border:none;
+}
+
+input.search-field{
+display: none;
+text-transform: uppercase;
+}
+
+.search-form{
+	display:flex;
+}
+
+label{
+	padding: 2rem;
+}
