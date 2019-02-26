@@ -15,21 +15,19 @@
 
 
 			<div class = "contant_info">
-			<h2> Contact Info </h2>
-                <p>     <i class="far fa-envelope"></i><a href="#"> info@inhabitent.com </a></p>
-                <p> <i class="fas fa-phone"></i><a href="#"> 778-456-7891 </a> </p>
+			<h3 class="orange-title"> Contact Info </h3>
+                <p>     <i class="far fa-envelope"></i><a href="#" class="fix"> info@inhabitent.com </a></p>
+                <p> <i class="fas fa-phone"></i><a href="#" class="fix" > 778-456-7891 </a> </p>
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-google-plus-g"></i>
 </div>
 
 
-
-
 			<div class = "business_hours">
 			<h3 class="orange-title"> Business Hours </h3>
-			<span><strong> Monday-Friday</strong>: 9am to 5pm </span> <br>
-			<span><strong> Saturday</strong>: 10am to 2pm </span> <br>
+			<span><strong> Monday-Friday</strong>: 9am to 5pm </span> <br><br>
+			<span><strong> Saturday</strong>: 10am to 2pm </span> <br><br>
 			<span> <strong>Sunday</strong>: Closed </span> 
 </div>
 
