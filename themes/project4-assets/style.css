@@ -44,7 +44,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Front page
 --------------------------------------------------------------*/
 html {
-  font-family: sans-serif;
+  font-family: "Merriweather";
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
@@ -711,9 +711,9 @@ object {
   margin-bottom: 3.75rem; }
 
 .shop-term {
-  border: 1px solid #a1a1a1;
+  border: 0.4px solid #a1a1a1;
   border-top-width: 5px;
-  max-width: 250px;
+  max-width: 260px;
   padding: 1rem;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 25%;
@@ -723,6 +723,22 @@ object {
     border-top-width: 5px; }
   .shop-term img {
     width: 30%; }
+
+.shop-term a {
+  background: #248a83;
+  border-radius: 0;
+  color: #fff;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Nove"; }
+
+.shop-term a:hover {
+  background: #19625d; }
+
+.shop-term p {
+  font-size: 14px;
+  line-height: 1.6rem; }
 
 .home .shop-terms {
   display: -webkit-box;
@@ -737,8 +753,9 @@ h1 h2 h3 h4 h5 {
   font-family: "Nove"; }
 
 p span {
-  letter-spacing: 1.5rem;
-  font-size: 16px; }
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  font-family: "Merriweather"; }
 
 .site-footer {
   background: url("../../images/dark-wood.png") repeat;
@@ -759,7 +776,8 @@ p span {
   .site-footer .copyright {
     text-align: center; }
   .site-footer .fix {
-    text-decoration: none; }
+    text-decoration: none;
+    color: white; }
 
 .orange-title {
   color: #d99054;
@@ -784,3 +802,11 @@ p span {
 
 .entry-header {
   height: 100vh; }
+
+.product .type-product .post-type-archive .post-type-archive-product {
+  display: grid; }
+
+.product {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  margin-bottom: 1.5rem; }
