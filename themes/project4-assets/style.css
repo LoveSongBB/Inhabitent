@@ -1226,7 +1226,7 @@ p span {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem; }
 
-.site-main {
+.single-shop-area .site-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1234,13 +1234,15 @@ p span {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row; }
+  .single-shop-area .site-main article {
+    width: 50%; }
+  .single-shop-area .site-main img {
+    width: 50%;
+    height: 40%;
+    padding: 5%; }
 
-article {
-  width: 50%; }
-
-img {
-  width: 50%;
-  height: auto; }
+.type-product h2 {
+  text-decoration: none; }
 
 .site-content {
   padding-top: 35px; }

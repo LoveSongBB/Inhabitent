@@ -23,18 +23,26 @@
     grid-gap: 1rem;
 }
 
-
+.single-shop-area {
 .site-main {
     display:flex;
-    flex-direction: row;}
+    flex-direction: row;
 
     article {
         width: 50%;}
         img {
             width:50%;
-            height: auto;
+            height: 40%;
+            padding: 5%;
 
         }
+    }}
+
+.type-product {
+    h2 {
+        text-decoration: none;
+    }
+}
 
 .site-content {
     padding-top:35px;
