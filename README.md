@@ -1,29 +1,31 @@
 # Inhabitent
-Project 4
 
-
-Project 4 - Inhabitent was to teach us wordpress and other skills I learnt from other projects.
-
+Project 4 - Inhabitent was to teach us wordpress and how it operated and how to start a fresh file.
 
 Created By
-Bryan Tran - Feb 2019
+Bryan Tran - March 7th, 2019
 
 Used to complete this project!
-RED Starter Theme
+RED Starter Theme - A theme provided as a foundation to complete this project. 
 RED Widget Boilerplate
+
+
+Screenshot!
+
+![](themes/project4-assets/screenshot.png)
 
 Langauges/files used ~
 
-CSS/SCSS/SASS
+CSS/SCSS/SASS 
 JavaScript
 JQuery
 Wordpress
 Post Types
 PHP
 Taxonomies
-Plugins/Widgets
+Plugins/Widgets 
 Personal learning
-Understand how PHP grabs the .php page depending on the name
+Understand how PHP and templates works.
 
 
 
