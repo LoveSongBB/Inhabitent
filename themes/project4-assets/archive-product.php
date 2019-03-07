@@ -7,6 +7,8 @@
 
 get_header(); ?>
 
+<div class="grid-area">
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -14,16 +16,12 @@ get_header(); ?>
 
 
 <section>
-			<header class="page-header">
-			
-			
-			
-			
+			<header class="page-header shop-title">
 				
 					<h1> Shop Stuff </h1>
 
 			</header><!-- .page-header -->
- 			<section>
+ 			<section class="product-header">
 			<?php $product_types=get_terms('product_type');?>
 		   <?php foreach ( $product_types as $term ) : setup_postdata( $term ); ?>
  			<div>
@@ -41,16 +39,22 @@ get_header(); ?>
 			 <section>
 
 			<?php /* Start the Loop */ ?>
-			
-			<?php while ( have_posts() ) : the_post(); ?>
 
+
+			<div class="archive-content">
+			<?php while ( have_posts() ) : the_post(); ?>
+            <div class="archive-single">
 				<?php
 					get_template_part( 'template-parts/contents','shop' );
 				?>
+		    
+			<?php the_posts_navigation(); ?>
+
+</div>
 
 			<?php endwhile; ?>
-			<span><?php echo CFS()->get('price'); ?></span>
-			<?php the_posts_navigation(); ?>
+</div>
+
 
 		<?php else : ?>
 
@@ -60,5 +64,6 @@ get_header(); ?>
  	</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
+	<div>
 
 <?php get_footer(); ?>

@@ -21,10 +21,14 @@
 
 .front-page-journal {
     display:flex;
-    margin-left: 5%;
+    margin: 0 auto;
+    justify-content: space-around;
+    article {
+        width: 30%;
+    }
     img{
         height: 250px;
-        width: 400px;
+        width: 100%;
         
     }
 }
@@ -81,3 +85,159 @@
     text-align: center;
     margin: 0 220px;
 }
+
+
+
+// Journal Page
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 1120px;
+    margin: auto;
+    padding-top: 75px;
+   }
+
+   .journal-content {
+       position: relative
+   }
+
+   .journal-page-entry {
+    h2.entry-title {
+     position: absolute;
+     top: 0;
+     background-color: $green;
+     padding: 3%;
+     color: $text-color-light;
+     text-transform: uppercase;
+     width: 65%;
+  
+     a {
+       text-decoration: none;
+       color: $text-color-light;
+       font-size: 1.8rem;
+     }
+   }
+}
+
+.journal-page-entry {
+    .journal-meta {
+    position: absolute;
+    right: 84px;
+    bottom: 0;
+    background-color: $green;
+    padding: 1%;
+    color: $text-color-light;
+    margin-bottom: 0.57.5%;
+
+  }
+  }
+
+  .journal-page {
+    border-right: 1px solid gray;
+  }
+
+
+
+  .journal-entry-content p {
+padding-right: 5rem;
+  }
+
+  .journal-content {
+      img{
+          width: 90%;
+      }
+
+  }
+
+// Single.php
+
+.type-post {
+ h1.entry-title {
+  position: absolute;
+  top: 111px;
+  background-color: $green;
+  padding: 1.25%;
+  color: $text-color-light;
+  text-transform: uppercase;
+  width: 37%;
+    height: 27%;
+
+  a {
+    text-decoration: none;
+    color: $text-color-light;
+    font-size: 1.8rem;
+  }
+}
+}
+
+.type-post {
+ .entry-meta {
+ position: absolute;
+ margin-top: -44px;
+ background-color: $green;
+ padding: 1.25%;
+ color: $text-color-light;
+ right: 565px;
+    line-height: 0;
+    text-transform: uppercase;
+     a {
+        color: $text-color-light;
+        text-decoration: none;
+        a:visited {
+            color: $text-color-light;
+        }
+    } 
+}
+}
+.site-main {
+    border-right: 1px solid gray;
+  }
+
+.type-post {
+    
+        p {
+            padding-right: 5rem;
+        }
+}
+
+  .entry-header {
+      img{
+          height:auto;
+          width: 90%;
+      }
+
+  }
+
+  .entry-footer {
+      text-transform: uppercase;
+      font-family: "Nove";
+      a {
+        text-decoration: none;
+        color: $green;
+      }
+      .cat-links {
+          padding-right: 1rem;
+
+      }
+  }
+
+  .inverse-btn {
+    border: 1px solid #000;
+    color: #000;
+    background-color: transparent;
+    padding: .75rem 1.5rem;
+text-decoration: none;
+text-transform: uppercase;
+&:hover {
+    background:#248a83;
+    border-radius: 0;
+    color: #fff;;
+  }
+}
+
+
+
+
+// Page PHP
+

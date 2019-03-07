@@ -1,3 +1,27 @@
-.entry-header {
-    height:100vh;
+.hero-image-header {
+    height: 120vh;
+}
+
+.hero-image-header {
+    h1{
+        color: $text-color-light;
+        text-transform: uppercase;
+    }
+}
+
+.about-content {
+    margin-top:-24px;
+    margin-bottom: 65px;
+    h2 {
+        text-align: center;
+        color: #2f1339;
+        font-size: 33.6px;
+        font-size: 2.1rem;
+        margin-bottom: 1.5rem;
+    }
+    p {
+        margin-right: auto;
+        margin-left:auto;
+        max-width:800px;
+    }
 }

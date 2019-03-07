@@ -4,9 +4,8 @@
 *
 * @package Inhabitent Theme
 */
-
 get_header(); ?>
- <div class="grid-container">
+ <div class="grid-area">
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
 
@@ -43,9 +42,7 @@ get_header(); ?>
         <article class="archive-single">
                 <?php
                     get_template_part( 'template-parts/content-product' );?>
-        <div class="archive-price">
-         <?php echo CFS()->get ( 'price' ); ?>
-         </div>
+    
                 
          </article>
             <?php endwhile; ?>

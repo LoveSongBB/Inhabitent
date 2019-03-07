@@ -15,3 +15,27 @@
 .widget_search .search-submit {
 	display: none;
 }
+
+
+.contact-widget {
+	a {
+		color: #248a83;
+		text-decoration: none;
+	}
+}
+
+.widget-area {
+	padding-left:20px;
+}
+
+
+.weekday {
+	font-weight: bold;
+}
+
+.widget {
+	ul{list-style: none;
+	 a{
+		color:$green;
+		text-decoration: none;
+	}}}

@@ -5,6 +5,8 @@ $site_width: 1120px;
 
 // Colors
 
+$text-color-light: #fff;
+$white-background: #fff;
 $color__background-body: #fff;
 $color__text-main: #404040;
 
@@ -18,22 +20,23 @@ $color__background-hr: #ccc;
 $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 $color__border-abbr: #666;
-
+$color__background-header: rgba(255, 255, 255, 0.8);
 // Link Colours
 
-$color__link: royalblue;
+$color__link: #248a83;
 $color__link-visited: purple;
 $color__link-hover: midnightblue;
 
 
 // Main Colour Ways
 
-$light-grey: #a1a1a1;
 $dark-grey: #808080;
-$yellow: #f0e4d1;
 $green: #248A83;
 $purple: #2f1339;
 $orange: #d99054;
+$light-grey: #a1a1a1;
+$yellow: #f0e4d1;
+
 
 
 
@@ -54,3 +57,6 @@ $font__line-height-pre: 1.6;
 $font_family-heading: Novecento, sans-serif;
 $font_family-default: Merriweather, serif;
 
+$border_dotted: 1.2px dotted $purple;
+$border_solid: 1px solid #e1e1e1;
+$border_dashed: 1px dashed #c8c8c8;
