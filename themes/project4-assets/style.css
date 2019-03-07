@@ -886,6 +886,13 @@ object {
     border-radius: 0;
     color: #fff; }
 
+.area-404 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 1120px;
+  margin: auto;
+  padding-top: 75px; }
+
 h1 h2 h3 h4 h5 {
   font-family: "Nove"; }
 
@@ -1221,10 +1228,57 @@ p span {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem; }
 
+.archive-meta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.archive-meta-title a {
+  text-decoration: none;
+  color: #2f1339;
+  font-size: 1rem; }
+
+.shop-title {
+  text-align: center; }
+
+.archive-meta-price {
+  padding-top: 1.65rem;
+  padding-right: 1rem; }
+
+.product-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px dotted #a1a1a1;
+  padding-bottom: 5rem; }
+  .product-header a {
+    padding-right: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Novecento Sans Web,sans-serif;
+    color: #248A83;
+    font-size: 1.2rem; }
+
+.archive-single {
+  border: 1px solid #e1e1e1; }
+  .archive-single img {
+    height: 270px;
+    border-bottom: 7px solid #a1a1a1;
+    width: 100%; }
+
 .archive-product {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem; }
+
+.archive-content {
+  padding: 2rem 10rem; }
 
 .single-shop-area .site-main {
   display: -webkit-box;

@@ -14,9 +14,14 @@
 			<?php the_post_thumbnail( 'large' ); ?>
 </a>
 		<?php endif; ?>
-        <span><?php echo CFS()->get('price'); ?></span>
+    <div class="archive-meta">   
+		<div class="archive-meta-title">
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-
+</div>
+<div class="archive-meta-price">
+		<span><?php echo CFS()->get('price'); ?></span>
+</div>
+</div>
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<?php endif; ?>
 	</header><!-- .entry-header -->

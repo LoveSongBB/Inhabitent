@@ -239,5 +239,10 @@ text-transform: uppercase;
 
 
 
-// Page PHP
-
+.area-404 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 1120px;
+    margin: auto;
+    padding-top: 75px;
+}
