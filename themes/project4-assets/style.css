@@ -902,31 +902,14 @@ p span {
   font-family: "Merriweather"; }
 
 /* Products archive */
-.products-heading {
-  text-align: center;
-  border-bottom: 1px dashed #c8c8c8;
-  padding-bottom: 1.5rem; }
-  .products-heading h1 {
-    margin-bottom: 0;
-    text-transform: uppercase; }
-  .products-heading .products-navigation {
-    font-size: 1.2rem;
-    list-style: none;
-    width: 560px;
-    margin: auto;
-    padding: 1.5rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    .products-heading .products-navigation li {
-      padding: 0 1.5rem; }
-
-.product-info {
+.archive-area {
   display: grid;
-  grid-template-columns: auto 1fr auto; }
+  grid-template-columns: 3fr 1fr;
+  width: 1120px;
+  margin: auto;
+  padding-top: 75px; }
+  .archive-area .entry-meta {
+    margin-top: -121px; }
 
 .site-footer {
   background: url("../../images/dark-wood.png") repeat;
