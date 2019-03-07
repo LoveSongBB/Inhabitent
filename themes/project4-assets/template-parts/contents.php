@@ -24,7 +24,7 @@
 </div>
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<?php endif; ?>
-	</header><!-- .entry-header -->
+	</header>
 
 
-</article><!-- #post-## -->
+</article>
