@@ -5,7 +5,6 @@
  * @package RED_Starter_Theme
  */
 ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php if ( has_post_thumbnail() ) : ?>
@@ -16,8 +15,8 @@
 
 		<div class="entry-meta">
 			<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
-		</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
+		</div>
+	</header>
 
 	<div class="entry-content">
 		<?php the_content(); ?>
@@ -27,9 +26,8 @@
 				'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
-
+	</div>
 	<footer class="entry-footer">
 		<?php red_starter_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
+	</footer>
+</article>
